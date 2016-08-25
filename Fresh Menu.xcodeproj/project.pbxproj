@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		901267701D6A9E760005EC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012676F1D6A9E760005EC66 /* AppDelegate.swift */; };
-		901267721D6A9E760005EC66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901267711D6A9E760005EC66 /* ViewController.swift */; };
 		901267751D6A9E760005EC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901267731D6A9E760005EC66 /* Main.storyboard */; };
 		901267771D6A9E760005EC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901267761D6A9E760005EC66 /* Assets.xcassets */; };
 		9012677A1D6A9E760005EC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901267781D6A9E760005EC66 /* LaunchScreen.storyboard */; };
 		901267851D6A9E770005EC66 /* Fresh_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901267841D6A9E770005EC66 /* Fresh_MenuTests.swift */; };
 		901267901D6A9E770005EC66 /* Fresh_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012678F1D6A9E770005EC66 /* Fresh_MenuUITests.swift */; };
+		9012679E1D6AA0040005EC66 /* Login Screem.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9012679D1D6AA0040005EC66 /* Login Screem.jpeg */; };
+		901267A01D6AA0480005EC66 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012679F1D6AA0480005EC66 /* loginVC.swift */; };
+		901267A21D6AA06D0005EC66 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901267A11D6AA06D0005EC66 /* homeVC.swift */; };
+		90D85BAE1D6E1D4100EC2A0E /* list_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D85BAD1D6E1D4100EC2A0E /* list_view.png */; };
+		90D85BB21D6E219B00EC2A0E /* FirstCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D85BB11D6E219B00EC2A0E /* FirstCVCell.swift */; };
+		90D85BB41D6E295E00EC2A0E /* SecondCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D85BB31D6E295E00EC2A0E /* SecondCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		9012676C1D6A9E760005EC66 /* Fresh Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fresh Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012676F1D6A9E760005EC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		901267711D6A9E760005EC66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		901267741D6A9E760005EC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		901267761D6A9E760005EC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901267791D6A9E760005EC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		9012678B1D6A9E770005EC66 /* Fresh MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fresh MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012678F1D6A9E770005EC66 /* Fresh_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fresh_MenuUITests.swift; sourceTree = "<group>"; };
 		901267911D6A9E770005EC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9012679D1D6AA0040005EC66 /* Login Screem.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Login Screem.jpeg"; path = "../../../../../../Downloads/Login Screem.jpeg"; sourceTree = "<group>"; };
+		9012679F1D6AA0480005EC66 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loginVC.swift; path = ../loginVC.swift; sourceTree = "<group>"; };
+		901267A11D6AA06D0005EC66 /* homeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = homeVC.swift; path = ../homeVC.swift; sourceTree = "<group>"; };
+		90D85BAD1D6E1D4100EC2A0E /* list_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_view.png; sourceTree = "<group>"; };
+		90D85BB11D6E219B00EC2A0E /* FirstCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstCVCell.swift; path = ../FirstCVCell.swift; sourceTree = "<group>"; };
+		90D85BB31D6E295E00EC2A0E /* SecondCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +107,12 @@
 		9012676E1D6A9E760005EC66 /* Fresh Menu */ = {
 			isa = PBXGroup;
 			children = (
-				9012676F1D6A9E760005EC66 /* AppDelegate.swift */,
-				901267711D6A9E760005EC66 /* ViewController.swift */,
-				901267731D6A9E760005EC66 /* Main.storyboard */,
+				90C1943F1D6E664E00948994 /* Root */,
+				90C1943B1D6E661900948994 /* ViewControllers */,
+				90C1943E1D6E664000948994 /* Images */,
+				90C1943C1D6E662400948994 /* CustomCells */,
+				90C194401D6E665A00948994 /* Xib's */,
 				901267761D6A9E760005EC66 /* Assets.xcassets */,
-				901267781D6A9E760005EC66 /* LaunchScreen.storyboard */,
 				9012677B1D6A9E760005EC66 /* Info.plist */,
 			);
 			path = "Fresh Menu";
@@ -123,6 +134,50 @@
 				901267911D6A9E770005EC66 /* Info.plist */,
 			);
 			path = "Fresh MenuUITests";
+			sourceTree = "<group>";
+		};
+		90C1943B1D6E661900948994 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9012679F1D6AA0480005EC66 /* loginVC.swift */,
+				901267A11D6AA06D0005EC66 /* homeVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90C1943C1D6E662400948994 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				90D85BB11D6E219B00EC2A0E /* FirstCVCell.swift */,
+				90D85BB31D6E295E00EC2A0E /* SecondCVCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		90C1943E1D6E664000948994 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				90D85BAD1D6E1D4100EC2A0E /* list_view.png */,
+				9012679D1D6AA0040005EC66 /* Login Screem.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		90C1943F1D6E664E00948994 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9012676F1D6A9E760005EC66 /* AppDelegate.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		90C194401D6E665A00948994 /* Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				901267731D6A9E760005EC66 /* Main.storyboard */,
+				901267781D6A9E760005EC66 /* LaunchScreen.storyboard */,
+			);
+			name = "Xib's";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D85BAE1D6E1D4100EC2A0E /* list_view.png in Resources */,
 				9012677A1D6A9E760005EC66 /* LaunchScreen.storyboard in Resources */,
+				9012679E1D6AA0040005EC66 /* Login Screem.jpeg in Resources */,
 				901267771D6A9E760005EC66 /* Assets.xcassets in Resources */,
 				901267751D6A9E760005EC66 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901267721D6A9E760005EC66 /* ViewController.swift in Sources */,
+				901267A01D6AA0480005EC66 /* loginVC.swift in Sources */,
+				90D85BB41D6E295E00EC2A0E /* SecondCVCell.swift in Sources */,
+				90D85BB21D6E219B00EC2A0E /* FirstCVCell.swift in Sources */,
+				901267A21D6AA06D0005EC66 /* homeVC.swift in Sources */,
 				901267701D6A9E760005EC66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fresh Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "techsoft.Fresh-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fresh Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "techsoft.Fresh-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +544,7 @@
 				901267961D6A9E770005EC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		901267971D6A9E770005EC66 /* Build configuration list for PBXNativeTarget "Fresh MenuTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +553,7 @@
 				901267991D6A9E770005EC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9012679A1D6A9E770005EC66 /* Build configuration list for PBXNativeTarget "Fresh MenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +562,7 @@
 				9012679C1D6A9E770005EC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
